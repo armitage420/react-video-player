@@ -9,8 +9,8 @@ const Controls = (props) => {
       <div className="info">
         {!isPlaying && (
           <>
-            <h2>The Immigrant Song</h2>
-            <div>Led Zeppelin</div>
+            <h2>Cake By The Ocean</h2>
+            <div>DNCE</div>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
