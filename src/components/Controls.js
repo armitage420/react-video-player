@@ -4,7 +4,7 @@ const Controls = (props) => {
   const { updatePlayerState, isPlaying } = props;
 
   return (
-    <div>
+    <div className="controls">
       <button onClick={() => updatePlayerState({ isPlaying: !isPlaying })}>
         {isPlaying ? "Pause" : "Play"}
       </button>

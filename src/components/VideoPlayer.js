@@ -6,8 +6,8 @@ const VideoPlayer = (props) => {
   const { isPlaying } = props;
 
   return (
-    <div>
-      <ReactPlayer url={video} playing={isPlaying} />
+    <div className="player">
+      <ReactPlayer height="100%" width="100%" url={video} playing={isPlaying} />
     </div>
   );
 };
